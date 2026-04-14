@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+  background-color: grey;
+}
+
+h2 {
+  text-align: center;
+}
+button {
+  float: right;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid lightslategray;
+  border-radius: 10px;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 100px;
+  color: #ccc;
+  cursor: pointer;
+}
