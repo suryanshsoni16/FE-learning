@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#results {
+  width: 500px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.item {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.search-box {
+  position: relative;
+}
+
+#searchInput {
+  width: 500px;
+  height: 40px;
+  padding: 0 35px 0 10px;
+  border-radius: 10px;
+  border: 1px solid lightskyblue;
+}
+
+#crossIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none;
+}
